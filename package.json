@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/bot.js",
   "scripts": {
-    "start": "node src/bot.js",
-    "dev": "nodemon src/bot.js",
+    "start": "node .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,10 @@
     "chalk": "^4.1.2",
     "discord-api-types": "^0.37.63",
     "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
