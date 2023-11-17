@@ -34,6 +34,7 @@ client.handleCommands();
 client.handleComponents();
 client.login(BOT_TOKEN);
 
+
 (async () => {
     await connect(DATABASE_URI, {}).catch((err) => {
         console.log(err);
